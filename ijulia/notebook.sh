@@ -1,3 +1,3 @@
 #!/bin/bash
 
-ipython notebook --profile julia --ip=*
+ipython notebook --no-browser --profile julia --ip=*

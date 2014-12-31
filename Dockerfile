@@ -1,6 +1,6 @@
 FROM ubuntu:14.04
 MAINTAINER Junichi Kajiwara<junichi.kajiwara@gmail.com>
-RUN echo "a"
+
 RUN apt-get update
 RUN apt-get install -y --no-install-recommends --fix-missing software-properties-common
 RUN add-apt-repository ppa:staticfloat/juliareleases
