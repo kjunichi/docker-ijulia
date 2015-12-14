@@ -1,4 +1,6 @@
 Pkg.add("IJulia")
 Pkg.add("PyPlot")
 Pkg.add("Images")
+Pkg.rm("IJulia")
+Pkg.add("IJulia")
 #Pkg.add("TestImages")
